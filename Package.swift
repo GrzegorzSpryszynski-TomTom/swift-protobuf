@@ -20,6 +20,7 @@ let package = Package(
     ),
     .library(
         name: "SwiftProtobuf",
+        type: .dynamic,
         targets: ["SwiftProtobuf"]
     ),
     .library(
